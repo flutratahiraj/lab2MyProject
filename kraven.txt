@@ -1,0 +1,67 @@
+##För G så ska följande krav uppfyllas:
+
+[/]Webbanrop görs information från en eller flera webbtjänster visas i webbapplikationen (Undvik CORS-problem och använd helst HTTPS, för applikationen ska fungera bra som publicerad; Visa åtminstone tio värden;
+
+[x]Använd inte Cities-tjänsten eller någon annan webbtjänst som har tagits upp som ett exempel)
+
+[x]Textinterpolering ({{ och }}) används
+[x]Attributinterpolering (v-bind eller dess kortform) används (key-props (relaterade till v-for) räknas inte)
+
+[X]Villkorlig rendering (v-if) används
+
+[x]Listrendering (v-for) används
+
+[x]Händelser (v-on eller dess kortform) används
+[x]v-model (och värdet som matas in) används
+
+[x]En Single Page Application, bestående av minst två webbsidor, ska skapas med Vue Router (Använd både router-link och router-view)
+
+[x]Minst en icke-Vue-Router-.vue-komponent ska skapas (App.vue räknas inte)
+
+[x]Minst en komponent ska ta emot, och använda, minst en prop (via props-nyckeln)
+
+[x]Minst en komponent använder Sass, via style-elementet, i sin .vue-fil
+
+[]Källkoden för projektet publiceras på GitHub (eller liknande)
+
+[]Webbapplikationen ska publiceras på GitHub Pages (eller liknande)
+
+[]Inlämningen ska bestå av ett PDF-dokument som innehåller adresserna till två separata Git repositories: 1) ett repository för källkoden (till exempel vite.config.js, main.js och .vue-filerna) och 2) ett repository för den publicerade “produktionsvarianten” av projektet (GitHub Pages-filerna)
+[]Om ditt repository är privat, bjud då in användaren "jonkri" på GitHub/GitLab
+
+##För VG ska kraven för G vara uppfyllda. Dessutom ska följande krav uppfyllas:
+
+[x]Använd någonting annat än fetch (till exempel Axios) för att göra webbanropen
+[x]Minst en beräknad egenskap (computed) används
+[x]Minst en bevakare (watch) används
+[x]Alla props ska vara typsäkra
+
+[x]Minst ett custom event används (skickas och tas emot)
+[x]Vuex körs i “strict mode”, och minst ett datavärde sparas i, uppdateras (via en mutation), och hämtas från, Vuex
+[x]Använd minst ett Vue Router-adressparametervärde
+[/]Bootstrap ska användas i någon utsträckning och anpassas via minst en Sass-variabel
+[x]Det finns en ESLint-konfiguration för projektet, som alla filer följer
+[? **vet ej om alla följer**]Det finns en Prettier-konfiguration för projektet, som alla filer följer
+
+
+
+github resetories
+PDF med följande:
+1) webbadressen: https://flutra:github.io/
+dist mapp innehållet
+
+2)Källkod, https://github.com/flu/my-project
+All kod, som syns i code.
+
+3)om privat:
+
+
+HJÄLP:
+[]lägg till namn som en lista,på min queue
+[]använd splice? för att ta bort namn
+[] vad betyder följande;
+vue/v-on-event-hyphenation
+
+
+[] font face? hur används importen? kolla userview filen
+figjam pfd med länkar

@@ -1,0 +1,23 @@
+//ref: Handout
+$body-bg: #ffffff;
+
+$body-color: rgb(0, 0, 0);
+$header-color:green;
+
+$theme-colors: (
+  // 'primary': #166285,
+  'primary': #e18cb4,
+  'secondary': #4f4f52,
+  'success': #577717,
+  'info': #3f7679,
+  'warning': #ac5b2c,
+  'danger': #88193a,
+  'light': #c8c8c8,
+  'dark': #2f2f2f
+);
+
+
+h3{
+  color: $header-color;
+}
+@import 'bootstrap/scss/bootstrap';
